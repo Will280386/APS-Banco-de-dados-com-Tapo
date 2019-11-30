@@ -1,0 +1,26 @@
+body{
+margin:0px;
+    padding: 0px;
+    background:url("../img/2.jpg")center center no-repeat fixed;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-family: Tahoma,sans-serif;
+    height: 100vh;
+}
+.navbar{
+	height:10vh;
+}
+.conteudo{
+	height: 90vh;
+}
+.menu{
+	background-color:rgba(255,255,255,0.5);
+	
+
+}
+.tags{
+	background-color:rgba(255,255,255,0.7);
+}
+.btn-apagar{
+	margin-top: -20px;
+}

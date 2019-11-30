@@ -1,0 +1,125 @@
+
+/*
+    *Modificações Lucas - 01/11
+    *Centralização do background
+    *Centralização do .form-area
+    *Adicionado o CONTAINER-FLUID
+    *Adicionado .perSeg
+*/
+body
+{   
+    margin:0px;
+    padding: 0px;
+    background:url("../img/2.jpg")center center no-repeat fixed;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-family: Tahoma,sans-serif;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+}
+.form-area
+{   
+    margin-top: 3%;
+    margin-bottom: 3%;
+    min-width: 650px;
+    flex:0;
+    border-radius: 10px;
+    background:rgba(0,0,0,0.5);
+    padding: 25px; 
+}
+.logo{
+}
+.perSeg{
+    margin-bottom: -10px;
+}
+.vermelho{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+h2
+{
+    margin:0px;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: orange;
+    left: 100px;
+    
+}
+
+.form-area p
+{
+    margin:0px;
+    padding: 0px;
+    font-weight: bold;
+    color: #ffffff ;
+}
+
+.form-area input,select
+{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-area input[type=text],
+.form-area input[type=email],
+.form-area input[type=password]
+{
+    border:none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    display: 16px;
+}
+
+.form-area input::placeholder
+{
+    color: white;
+    opacity: 35%;
+}
+
+.form-area select
+{
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.form-area input[type=submit]
+{
+    border:none;
+    height: 40px;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: tomato;
+    cursor:pointer;
+    border-radius: 20px;
+}
+
+.form-area input[type=submit]:hover
+{
+    background-color: cyan;
+    color: #ffffff;
+}
+
+.form-area a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.form-area a:hover {
+   color: orange;
+    
+}
+
+

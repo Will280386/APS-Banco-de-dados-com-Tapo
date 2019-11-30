@@ -1,0 +1,61 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	align-content: center;
+
+	
+}
+.postagem{
+	margin-top:15px;
+	margin-left:15px;
+}
+.postagem:hover{
+	background-color:#F8F9FA;
+	box-shadow: 5px 5px 15px -8px rgba(0, 0, 0, 0.2);
+}
+.blue {
+	color:white;
+	padding:10px;
+	background-color:blue;
+}
+.row {
+	height:500px;
+	text-align: center;
+}
+.container-fluid{
+	text-align: center;
+}
+.red{
+	padding:5px;
+	background-color: red;
+}
+.top{
+	padding-top: 15px;
+}
+.corPrimaria{
+	color: #E87722;
+}
+.corSecundaria{
+	color:#00438C;
+}
+
+
+
+
+#logo{
+	font-size: 40px;
+	font-family: monospace;
+}
+#menu{
+	display: inline;
+	max-width: 20%;
+}
+#tudo{
+	height: 100%;
+}
+#conteudo{
+	
+}
+#main{
+	height: 100%;
+}
